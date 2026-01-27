@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://main--aem-eds--vidyak456.aem.live/sitemap.xml
