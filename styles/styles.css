@@ -10,7 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
- :root {
+:root {
   /* colors */
   --primary-color: rgb(255 234 3); /* WKND primary color */
   --secondary-color: rgb(32 32 32); /* Secondary brand color */
@@ -22,8 +22,8 @@
   --link-hover-color: black; /* Base hover color */
 
   /* fonts */
-  --body-font-family: 'Source Sans Pro', adobe-clean-normal-400-fallback, sans-serif; /* Heading font */
-  --heading-font-family: 'Asar', adobe-clean-spectrum-vf-normal-400-fallback, sans-serif; /* Body font */
+  --body-font-family: 'Source Sans Pro', sans-serif; /* Heading font */
+  --heading-font-family: 'Asar', sans-serif; /* Body font */
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -44,21 +44,19 @@
 
 /* Add fallback fonts here */
 
-    /* fallback font for adobe-clean (normal - 400) */
-    @font-face {
-      font-family: "adobe-clean-normal-400-fallback";
-      size-adjust: 90.139%;
-      src: local("Arial");
-    }
+/* fallback font for Asar (normal - 400) */
+@font-face {
+  font-family: "asar-normal-400-fallback";
+  size-adjust: 95.729%;
+  src: local("Arial");
+}
 
-    /* fallback font for adobe-clean-spectrum-vf (normal - 400) */
-    @font-face {
-      font-family: "adobe-clean-spectrum-vf-normal-400-fallback";
-      size-adjust: 90.139%;
-      src: local("Arial");
-    }
-
-
+/* fallback font for Source Sans Pro (normal - 400) */
+@font-face {
+  font-family: "source-sans-pro-normal-400-fallback";
+  size-adjust: 92.889%;
+  src: local("Arial");
+}
 
 @media (width >= 900px) {
   :root {
